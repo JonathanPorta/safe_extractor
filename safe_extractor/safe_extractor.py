@@ -16,7 +16,7 @@ from sys import stderr
 
 resolved = lambda x: realpath(abspath(x))
 
-class SafeExtractor:
+class safe_extractor:
     def badpath(path, base):
         # joinpath will ignore base if path is absolute
         return not resolved(joinpath(base,path)).startswith(base)

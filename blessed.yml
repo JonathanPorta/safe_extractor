@@ -1,0 +1,9 @@
+schema: blessed/repo/v1
+project: safe-extractor
+component: library
+repo_type: library
+stage: paused
+stack:
+  - python
+standards: []
+capabilities: []
